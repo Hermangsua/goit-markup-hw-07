@@ -1,0 +1,41 @@
+/* Our advances */
+.advance-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color:$primary-white-color;
+    .card-set__text {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.71;
+        }
+&__list{
+display: flex;
+.list__item{
+width: 270px;
+&:not(:last-child){
+margin-right: 30px;
+}
+}
+}
+}
+.our-advance__main-title {
+    margin-top: 0;
+}
+
+.card-set {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: $our-team-bcg-color;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+&__title{margin-top: 30px;
+    margin-bottom: 10px;
+    color: $header-text-color;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+}
+
