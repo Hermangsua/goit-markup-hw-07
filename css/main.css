@@ -711,6 +711,8 @@ header {
 .project .example-works {
   margin-right: 30px;
   margin-bottom: 30px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--primary-white-color);
 }
 .project .example-works:nth-child(3n) {
   margin-right: 0;
@@ -775,6 +777,11 @@ header {
 
 .example-works:hover .content-discr-overlay {
   transform: translateY(0);
+}
+
+.example-works:hover, .example-works:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 /* Modal-window */
